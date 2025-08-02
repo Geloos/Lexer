@@ -1,0 +1,64 @@
+// Simple test for SSC lexer
+
+typedef int myInt;
+typedef float myFloat;
+char c = 'a';
+string s = "hello\nworld";
+int x = 42;
+float y = 3.14;
+
+class MyClass {
+public:
+    void method() {
+        cout << "Hello from method!" << endl;
+    }
+};
+
+if (x >= 10 && y < 5.5) {
+    x++;
+} else {
+    x--;
+}
+
+for (int i = 0; i < 10; i++) {
+    list<int> myList;
+    myList.length();
+    cin >> x;
+    cout << x;
+}
+
+switch (x) {
+    case 1:
+        break;
+    default:
+        return;
+}
+
+// List function pattern
+CAR;
+CDDR;
+CADDR;
+
+// Floating point edge cases
+0.0
+123.0
+.123E+10
+
+// Constants
+0x1A3F
+0o755
+0b10101
+
+main()
+{
+
+    aaaaa;
+    this->x = new MyClass();
+    "dsa"dasdas";
+    "dsa" "dasdas";
+    in@@t@@t 2aaa__aa__;
+    "dsadasd;
+
+    aaaaa;
+    aaaaa;
+}
