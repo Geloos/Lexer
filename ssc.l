@@ -142,8 +142,6 @@ char error_handler(){
         unput(ch);
     }
     
-    after_invalid[i] = '\0';
-  
     if (!line_fully_read) {
         if (curr_line_pos + i < sizeof(curr_line)) {
             memcpy(&curr_line[curr_line_pos], after_invalid, i);
