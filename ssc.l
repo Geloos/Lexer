@@ -238,6 +238,7 @@ int main(int argc, char** argv) {
         fp = fopen(argv[1], "r");
         if (!fp) {
             printf("Error: file could not be opened\n");
+            free_st();
             return 1;
         }
     }
