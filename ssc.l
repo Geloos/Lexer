@@ -186,9 +186,9 @@ int insert_symbol(char *name){
     if(st.pos >= st.size){
         st.size *= 2;
         Symbol_data *new_block = realloc(st.symbol, (st.size) * sizeof(Symbol_data));
-        if(!st.symbol){
+        if(!new_block){
             printf("realloc failed\n");
-            free(st.symbol);
+            free(new_block);
             exit(1);
         }    
         
